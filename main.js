@@ -1,6 +1,7 @@
+var box = document.getElementById("container");
 var text = document.createElement("div");
 text.innerHTML = " ";
-document.body.appendChild(text);
+box.appendChild(text);
 
 function sun() {
     text.innerHTML = "Hey, Everyone. GOOD MORNING!!!";
@@ -87,7 +88,7 @@ function monkey() {
         { transform: 'translateY(-100px)' },
         { transform: 'translateY(0px)' },
         { transform: 'rotate(20deg)' }], {
-        duration: 400,
+        duration: 500,
         easing: 'linear',
         iterations: 3 });
 }

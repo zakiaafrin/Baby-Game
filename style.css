@@ -1,6 +1,12 @@
 body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
     background: url('img/background.jpg') no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -8,16 +14,15 @@ body {
 }
 
 .div1pic {
-    margin-top: 160px; 
-    margin-left: 290px;
+    margin-top: 15vh; 
+    margin-left: 20vw;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
 .div2pic {
-    margin-top: -125px; 
-    margin-right: 140px;
+    margin-left: -12vw;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
