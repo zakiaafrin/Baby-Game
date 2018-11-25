@@ -87,9 +87,9 @@ function monkey() {
         { transform: 'translateY(-100px)' },
         { transform: 'translateY(0px)' },
         { transform: 'rotate(20deg)' }], {
-        duration: 355,
+        duration: 400,
         easing: 'linear',
-        iterations: 4 });
+        iterations: 3 });
 }
 
 function score() {                                 

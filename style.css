@@ -7,17 +7,17 @@ body {
     color: rgb(95, 31, 65);
 }
 
-.div2pic {
-    margin-top: -125px; 
-    margin-right: 140px;
+.div1pic {
+    margin-top: 215px; 
+    margin-left: 290px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
-.div1pic {
-    margin-top: 155px; 
-    margin-left: 255px;
+.div2pic {
+    margin-top: -115px; 
+    margin-right: 140px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
