@@ -1,0 +1,29 @@
+body {
+    background: url('img/background.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(95, 31, 65);
+}
+
+.div2pic {
+    margin-top: -100px; 
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.div1pic {
+    margin-top: 215px; 
+    margin-left: 290px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#sunPic {
+    position: relative;
+    cursor: pointer;
+  }
