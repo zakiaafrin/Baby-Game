@@ -8,7 +8,7 @@ body {
 }
 
 .div2pic {
-    margin-top: -100px; 
+    margin-top: -110px; 
     margin-right: 140px;
     display: flex;
     justify-content: space-around;
@@ -16,8 +16,8 @@ body {
 }
 
 .div1pic {
-    margin-top: 215px; 
-    margin-left: 290px;
+    margin-top: 150px; 
+    margin-left: 255px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
