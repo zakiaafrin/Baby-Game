@@ -2,10 +2,11 @@ var box = document.getElementById("container");
 var text = document.createElement("div");
 text.innerHTML = " ";
 box.appendChild(text);
+var score = document.getElementById("scoreBox");
 
 function sun() {
     text.innerHTML = "Hey, Everyone. GOOD MORNING!!!";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("sunSound").play();
     document.getElementById("sunPic").animate([
         { transform: 'rotate(0)' },
@@ -16,7 +17,7 @@ function sun() {
 
 function baby1() {
     text.innerHTML = "Baby girl is singing her favourite song!!!";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("baby1Sound").play();
     document.getElementById("baby1Pic").animate([
         { transform: 'translateX(0px)' },
@@ -29,7 +30,7 @@ function baby1() {
 
 function horse() {
     text.innerHTML = "You have heard the music of the horse neighing.";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("horseSound").play();
     document.getElementById("horsePic").animate([
         { transform: 'rotate(20deg)' },
@@ -43,7 +44,7 @@ function horse() {
 
 function baby2() {
     text.innerHTML = "Baby boy is laughing!!!";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("baby2Sound").play();
     document.getElementById("baby2Pic").animate([
         { transform: 'translateY(0px)' },
@@ -55,7 +56,7 @@ function baby2() {
 
 function duck() {
     text.innerHTML = "You have heard the song of the duck.";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("duckSound").play();
     document.getElementById("duckPic").animate([
         { transform: 'translateX(0px)' },
@@ -68,7 +69,7 @@ function duck() {
 
 function cartoon() {
     text.innerHTML = "You have heard the sounds of the woddy woodpecker.";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("woodySound").play();
     document.getElementById("woodyPic").animate([
         { transform: 'scale(1)' },
@@ -80,7 +81,7 @@ function cartoon() {
 }
 function monkey() {
     text.innerHTML = "The monkey is jumping with joy!!!";
-    score();
+    score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("monkeySound").play();
     document.getElementById("monkeyPic").animate([
         { transform: 'rotate(20deg)' },
@@ -91,9 +92,4 @@ function monkey() {
         duration: 500,
         easing: 'linear',
         iterations: 3 });
-}
-
-function score() {                                 
-    var score = document.getElementById("scoreBox");
-    score.innerHTML = parseInt(score.innerHTML) + 1;
 }
