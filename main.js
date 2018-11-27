@@ -29,7 +29,7 @@ function baby1() {
 }
 
 function horse() {
-    text.innerHTML = "You have heard the music of the horse neighing.";
+    text.innerHTML = "You have heard the sound of the horse neighing.";
     score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("horseSound").play();
     document.getElementById("horsePic").animate([
@@ -55,7 +55,7 @@ function baby2() {
 }
 
 function duck() {
-    text.innerHTML = "You have heard the song of the duck.";
+    text.innerHTML = "The duck is singing.";
     score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("duckSound").play();
     document.getElementById("duckPic").animate([
@@ -68,7 +68,7 @@ function duck() {
 }
 
 function cartoon() {
-    text.innerHTML = "You have heard the sounds of the woddy woodpecker.";
+    text.innerHTML = "Ha Ha Ha Haaa....Ha Ha Ha Haaa....Ha Ha Ha Haaa....!!!";
     score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("woodySound").play();
     document.getElementById("woodyPic").animate([
