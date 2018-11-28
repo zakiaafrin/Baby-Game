@@ -1,12 +1,10 @@
 html {
     background-color: #f3a69e;
 }
-
 body {
     margin: 0;
     padding: 0;
 }
-
 #container {
     height: 100vh;
     background: url('img/background.jpg') no-repeat;
@@ -16,7 +14,6 @@ body {
     font-weight: bold;
     color: rgb(95, 31, 65);
 }
-
 #scoreBox {
     margin-left: 47%;
     margin-right: 47%;
@@ -24,7 +21,6 @@ body {
     border: 2px solid #91d45a;
     color: white;
 }
-
 .div1pic {
     margin-top: 10vh; 
     margin-left: 20vw;
@@ -32,7 +28,6 @@ body {
     justify-content: space-around;
     align-items: flex-end;
 }
-
 .div2pic {
     margin-top: -4vh;
     margin-left: -12vw;
@@ -40,8 +35,11 @@ body {
     justify-content: space-around;
     align-items: flex-end;
 }
-
 #sunPic {
     position: relative;
     cursor: pointer;
-  }
+}
+img {
+    width: 13vw;
+    height: auto;
+}

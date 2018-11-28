@@ -40,7 +40,7 @@ function horse() {
             iterations: 6 });
 }
 function baby2() {
-    text.innerHTML = "Baby boy is laughing!!!";
+    text.innerHTML = "Baby girl is laughing!!!";
     score.innerHTML = parseInt(score.innerHTML) + 1;
     document.getElementById("baby2Sound").play();
     document.getElementById("baby2Pic").animate([
