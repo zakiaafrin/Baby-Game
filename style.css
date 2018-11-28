@@ -22,14 +22,14 @@ body {
     color: white;
 }
 .div1pic {
-    margin-top: 10vh; 
+    margin-top: 5vh; 
     margin-left: 20vw;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 .div2pic {
-    margin-top: -4vh;
+    margin-top: -7vh;
     margin-left: -12vw;
     display: flex;
     justify-content: space-around;
